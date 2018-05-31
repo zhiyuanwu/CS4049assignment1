@@ -1,6 +1,7 @@
 import processing.sound.*;
 Amplitude amp;
 AudioIn in;
+
 //////////volume bars//////////////
 float vol;
 float[] volHistory= new float[100];
@@ -11,6 +12,7 @@ int bandwidth=10;
 int banddistance=20;
 float deg;
 int sensitivity=55000;
+
 ///////////////////////////
 
 
